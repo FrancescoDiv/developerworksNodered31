@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: developerworksNodered31
+  host: developerworksNodered31
+  disk_quota: 1024M
+  services:
+  - developerworksNodered31-cloudantNoSQLDB
+  - Language Translator-ub
